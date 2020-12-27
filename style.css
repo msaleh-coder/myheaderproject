@@ -1,0 +1,64 @@
+body{
+  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(231, 226, 231);
+}
+.header{
+    width: 100% ;
+    margin: auto;
+    background-color: rgb(1, 14, 14);
+    overflow: hidden;
+    height: max-content;
+}
+#Logo{
+    float: left;
+    width: 30%;
+    margin: 10px;
+    
+}
+#Logo img {
+    height: 60px;
+    width: 100px; 
+}
+nav{
+    float: right;
+    width: 58%;
+}
+ul {
+    list-style: none;
+}
+li {
+    float: left;
+    padding: 15px 20px;
+    background: rgb(63, 63, 126);
+}
+li:hover{
+    background: rgb(89, 153, 100);
+}
+#Menu-icon img {
+    height: 50px;
+    width: 50px;
+    display: none;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: mediumspringgreen;
+}
+a:hover{
+   color: white; 
+   text-decoration: underline;
+}
+.containar{
+    width: 100%;
+    height: 500px;
+    background-color: sandybrown;
+    overflow: hidden;
+}
+.dd{
+    width: 200px;
+    height: 100px;
+    
+}
